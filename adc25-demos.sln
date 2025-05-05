@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wasm-plugins", "wasm-plugins", "{6B467574-D635-E314-46DD-55A5E16B3B9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-mages", "02-mages", "{5CA6A468-0D5C-706A-575D-C703858EA43B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexibleApi", "wasm-plugins\02-mages\FlexibleApi\FlexibleApi.csproj", "{AE935563-DDBF-F446-9DD0-49B72DEBD653}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE935563-DDBF-F446-9DD0-49B72DEBD653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE935563-DDBF-F446-9DD0-49B72DEBD653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE935563-DDBF-F446-9DD0-49B72DEBD653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE935563-DDBF-F446-9DD0-49B72DEBD653}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CA6A468-0D5C-706A-575D-C703858EA43B} = {6B467574-D635-E314-46DD-55A5E16B3B9E}
+		{AE935563-DDBF-F446-9DD0-49B72DEBD653} = {5CA6A468-0D5C-706A-575D-C703858EA43B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6827BCF7-B1A1-441F-AB71-3FB0BE5411C4}
+	EndGlobalSection
+EndGlobal

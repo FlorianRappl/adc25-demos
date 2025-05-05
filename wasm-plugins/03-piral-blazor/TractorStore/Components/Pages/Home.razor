@@ -1,0 +1,13 @@
+﻿@page "/"
+@inject NavigationManager NavManager
+
+<PageTitle>Home</PageTitle>
+
+<a href="/products">To the products</a>
+
+@code {
+    protected override void OnInitialized()
+    {
+        //NavManager.NavigateTo("/products");
+    }
+}
