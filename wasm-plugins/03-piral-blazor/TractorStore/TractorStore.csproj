@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Piral.Blazor.Orchestrator" Version="0.4.1" />
-    <PackageReference Include="Piral.Blazor.Shared" Version="0.4.1" />
+    <PackageReference Include="Piral.Blazor.Orchestrator" Version="1.0.0" />
+    <PackageReference Include="Piral.Blazor.Shared" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

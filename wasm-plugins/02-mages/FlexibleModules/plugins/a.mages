@@ -1,0 +1,3 @@
+log("Module A started");
+
+registerGet("/foo", () => (new { message: "Hallo Welt!" } | json));
